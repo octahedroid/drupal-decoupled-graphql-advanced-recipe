@@ -1,6 +1,11 @@
-# Drupal decoupled example GQL
+# Drupal Decoupled Graphql example recipe
 
-This recipe is designed to provide a complete pre-configured example of a Drupal instance that functions as a headless CMS, exposing a GQL endpoint. Ready to be seamlessly integrated with an FE application.
+This recipe is designed to provide a ready-to-use Drupal Decoupled installation that is a headless CMS, exposing a GraphQL endpoint. It is ready to be seamlessly integrated with a front end application.
+
+- For information related to installing Drupal read the [docs here](https://drupal-decoupled.octahedroid.com/docs/getting-started/drupal/install)
+- For information related to installing this Recipe read the [docs here](https://drupal-decoupled.octahedroid.com/docs/getting-started/drupal/extend)
+
+## What this recipe does:
 
 - Adds content types `pages` and `articles`
 
@@ -36,5 +41,3 @@ This recipe is designed to provide a complete pre-configured example of a Drupal
 
 - Configures Visual editor for inline editorial experience 
 
-
-Make sure to take a look at the [recipe installation process](../README.md) to apply this recipe and use it in your Drupal project 

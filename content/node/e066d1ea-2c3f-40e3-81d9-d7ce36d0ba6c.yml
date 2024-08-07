@@ -5,7 +5,7 @@ _meta:
   bundle: article
   default_langcode: en
   depends:
-    7acaaa1f-4fd0-4bf2-805c-4340e7b6e1e8: user
+    56016070-f852-41b3-924b-0e57c7311355: user
     21f40fa6-36d5-49d9-b548-2c9f3e21720a: media
 default:
   revision_uid:
@@ -16,7 +16,7 @@ default:
       value: true
   uid:
     -
-      entity: 7acaaa1f-4fd0-4bf2-805c-4340e7b6e1e8
+      entity: 56016070-f852-41b3-924b-0e57c7311355
   title:
     -
       value: 'Decoupled Preview Iframe'
@@ -137,7 +137,7 @@ default:
               value: true
           field_text_rich:
             -
-              value: '<p><span>Preview Drupal content from your decoupled front-end site, embedding an Iframe with the content of your FE application</span></p>'
+              value: '<p><span>Preview Drupal content from your decoupled front-end site, embedding an Iframe with the content of your FE application</span></p><blockquote><p><span>Note&nbsp;</span></p></blockquote><p><span>Lorem</span></p>'
               format: full_html
           field_title:
             -

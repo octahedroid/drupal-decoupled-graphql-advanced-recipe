@@ -5,20 +5,20 @@ _meta:
   bundle: page
   default_langcode: en
   depends:
-    1ad2f693-a727-4e52-ba53-b28d65c86b1f: media
+    26b2e972-0404-42fb-8b1a-9c4adf03f3ae: media
 default:
   revision_uid:
     -
       target_id: 1
   status:
     -
-      value: true
+      value: false
   uid:
     -
       target_id: 0
   title:
     -
-      value: '404 - Page not found'
+      value: 'Page not found'
   created:
     -
       value: 1712346657
@@ -36,7 +36,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: '404 - Page not found | Drupal GraphQL Demo'
+        content: 'Page not found | Drupal GraphQL Demo'
     -
       tag: link
       attributes:
@@ -46,7 +46,7 @@ default:
       tag: link
       attributes:
         rel: image_src
-        href: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-04/404.jpeg'
+        href: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
     -
       tag: meta
       attributes:
@@ -66,17 +66,17 @@ default:
       tag: meta
       attributes:
         property: 'og:title'
-        content: '404 - Page not found | Drupal GraphQL Demo'
+        content: 'Page not found | Drupal GraphQL Demo'
     -
       tag: meta
       attributes:
         property: 'og:image'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-04/404.jpeg'
+        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
     -
       tag: meta
       attributes:
         property: 'og:image:url'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-04/404.jpeg'
+        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
     -
       tag: meta
       attributes:
@@ -91,7 +91,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:title'
-        content: '404 - Page not found'
+        content: 'Page not found'
     -
       tag: meta
       attributes:
@@ -106,7 +106,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:image'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-04/404.jpeg'
+        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
   path:
     -
       alias: /404
@@ -136,10 +136,10 @@ default:
               value: true
           field_image:
             -
-              entity: 1ad2f693-a727-4e52-ba53-b28d65c86b1f
+              entity: 26b2e972-0404-42fb-8b1a-9c4adf03f3ae
   field_image:
     -
-      entity: 1ad2f693-a727-4e52-ba53-b28d65c86b1f
+      entity: 26b2e972-0404-42fb-8b1a-9c4adf03f3ae
   field_show_title:
     -
       value: true

@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 6bcf66f7-6ea1-4489-ae34-60b80fe0fbde
+  uuid: a95209ad-735c-40d2-900f-01e0b48f9d04
   bundle: image
   default_langcode: en
   depends:
-    8ba03034-716a-4cf8-bdd6-45749e54b8e4: file
+    41c0950b-dbbc-4943-9cd2-1653c17b4b94: file
 default:
   status:
     -
@@ -15,10 +15,10 @@ default:
       target_id: 0
   name:
     -
-      value: image-window.png
+      value: hero.png
   created:
     -
-      value: 1712598217
+      value: 1721928530
   revision_translation_affected:
     -
       value: true
@@ -60,8 +60,8 @@ default:
       pathauto: 1
   field_media_image:
     -
-      entity: 8ba03034-716a-4cf8-bdd6-45749e54b8e4
-      alt: Image
+      entity: 41c0950b-dbbc-4943-9cd2-1653c17b4b94
+      alt: doc-tahedroid-avatar
       title: ''
-      width: 595
-      height: 356
+      width: 2368
+      height: 1628

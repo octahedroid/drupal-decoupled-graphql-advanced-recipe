@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 63086bc4-5a79-4cbd-b03d-a782d71edbb7
+  uuid: 26b2e972-0404-42fb-8b1a-9c4adf03f3ae
   bundle: image
   default_langcode: en
   depends:
-    dba0de25-9134-4306-8c6f-d0e29cca84e9: file
+    cf9658b3-685b-40e7-b898-5528e2c5c37b: file
 default:
   status:
     -
@@ -15,10 +15,10 @@ default:
       target_id: 0
   name:
     -
-      value: octahedroid-preview-graphql-compose.png
+      value: 404.png
   created:
     -
-      value: 1717117162
+      value: 1722329148
   revision_translation_affected:
     -
       value: true
@@ -60,8 +60,8 @@ default:
       pathauto: 1
   field_media_image:
     -
-      entity: dba0de25-9134-4306-8c6f-d0e29cca84e9
-      alt: octahedroid-preview-graphql-compose
+      entity: cf9658b3-685b-40e7-b898-5528e2c5c37b
+      alt: '404'
       title: ''
-      width: 1190
-      height: 712
+      width: 490
+      height: 391

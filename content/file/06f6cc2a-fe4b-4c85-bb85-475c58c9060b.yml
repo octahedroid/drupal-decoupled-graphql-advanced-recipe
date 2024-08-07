@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: b29c373d-f428-4ca8-bbde-2859ed0d3029
+  uuid: 06f6cc2a-fe4b-4c85-bb85-475c58c9060b
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: octahedroid-preview-logoicon.png
+      value: drop-02.png
   uri:
     -
-      value: 'public://2024-05/octahedroid-preview-logoicon.png'
+      value: 'public://2024-07/drop-02.png'
   filemime:
     -
       value: image/png
   filesize:
     -
-      value: 172807
+      value: 4721
   status:
     -
       value: true
   created:
     -
-      value: 1720484707
+      value: 1722659141

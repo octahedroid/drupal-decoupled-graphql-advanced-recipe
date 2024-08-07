@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 8ba03034-716a-4cf8-bdd6-45749e54b8e4
+  uuid: dba0de25-9134-4306-8c6f-d0e29cca84e9
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: image-window.png
+      value: octahedroid-preview-graphql-compose.png
   uri:
     -
-      value: 'public://2024-04/image-window.png'
+      value: 'public://2024-05/octahedroid-preview-graphql-compose.png'
   filemime:
     -
       value: image/png
   filesize:
     -
-      value: 132299
+      value: 210863
   status:
     -
       value: true
   created:
     -
-      value: 1720484707
+      value: 1722659141

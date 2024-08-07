@@ -5,7 +5,7 @@ _meta:
   bundle: article
   default_langcode: en
   depends:
-    7acaaa1f-4fd0-4bf2-805c-4340e7b6e1e8: user
+    56016070-f852-41b3-924b-0e57c7311355: user
     63086bc4-5a79-4cbd-b03d-a782d71edbb7: media
     e51b0bf5-9739-4ce4-96ac-9104ebb86566: taxonomy_term
     b4df7c68-f808-4a35-977f-ccbf2d6b5b2b: taxonomy_term
@@ -18,7 +18,7 @@ default:
       value: true
   uid:
     -
-      entity: 7acaaa1f-4fd0-4bf2-805c-4340e7b6e1e8
+      entity: 56016070-f852-41b3-924b-0e57c7311355
   title:
     -
       value: 'GraphQL Compose'

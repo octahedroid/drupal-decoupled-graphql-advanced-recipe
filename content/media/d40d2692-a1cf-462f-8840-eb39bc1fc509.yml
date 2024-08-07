@@ -5,7 +5,7 @@ _meta:
   bundle: image
   default_langcode: en
   depends:
-    ddf737a7-73d1-49bc-80e1-a7ac94442d4e: file
+    c2eec070-5e51-4b43-bd40-8d80e3a9578c: file
 default:
   status:
     -
@@ -60,7 +60,7 @@ default:
       pathauto: 1
   field_media_image:
     -
-      entity: ddf737a7-73d1-49bc-80e1-a7ac94442d4e
+      entity: c2eec070-5e51-4b43-bd40-8d80e3a9578c
       alt: octahedroid-preview-blog
       title: ''
       width: 1190

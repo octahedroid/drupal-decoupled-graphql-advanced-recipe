@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 1ad2f693-a727-4e52-ba53-b28d65c86b1f
+  uuid: 00abcebd-c9a2-4a79-8f05-13586cb24830
   bundle: image
   default_langcode: en
   depends:
-    68be780d-785e-46fa-b672-0699c851e101: file
+    06f6cc2a-fe4b-4c85-bb85-475c58c9060b: file
 default:
   status:
     -
@@ -15,10 +15,10 @@ default:
       target_id: 0
   name:
     -
-      value: 404.jpeg
+      value: drop-02.png
   created:
     -
-      value: 1712346667
+      value: 1722308109
   revision_translation_affected:
     -
       value: true
@@ -60,8 +60,8 @@ default:
       pathauto: 1
   field_media_image:
     -
-      entity: 68be780d-785e-46fa-b672-0699c851e101
-      alt: 'not found'
+      entity: 06f6cc2a-fe4b-4c85-bb85-475c58c9060b
+      alt: 'Drop 02'
       title: ''
-      width: 2019
-      height: 1068
+      width: 400
+      height: 400

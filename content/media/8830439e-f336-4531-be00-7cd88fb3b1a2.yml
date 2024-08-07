@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: a73c3bfb-4b7a-473f-9f45-e381dd4781de
+  uuid: 8830439e-f336-4531-be00-7cd88fb3b1a2
   bundle: image
   default_langcode: en
   depends:
-    b29c373d-f428-4ca8-bbde-2859ed0d3029: file
+    0bd584b6-acff-4735-9719-d0e4d305185f: file
 default:
   status:
     -
@@ -15,10 +15,10 @@ default:
       target_id: 0
   name:
     -
-      value: octahedroid-preview-logoicon.png
+      value: drop-01.png
   created:
     -
-      value: 1717117299
+      value: 1722308085
   revision_translation_affected:
     -
       value: true
@@ -60,8 +60,8 @@ default:
       pathauto: 1
   field_media_image:
     -
-      entity: b29c373d-f428-4ca8-bbde-2859ed0d3029
-      alt: octahedroid-preview-logoicon
+      entity: 0bd584b6-acff-4735-9719-d0e4d305185f
+      alt: 'Drop 01'
       title: ''
-      width: 1190
-      height: 712
+      width: 400
+      height: 400

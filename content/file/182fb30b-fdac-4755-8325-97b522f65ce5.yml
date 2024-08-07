@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 68be780d-785e-46fa-b672-0699c851e101
+  uuid: 182fb30b-fdac-4755-8325-97b522f65ce5
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: 404.jpeg
+      value: drop-03.png
   uri:
     -
-      value: 'public://2024-04/404.jpeg'
+      value: 'public://2024-07/drop-03.png'
   filemime:
     -
-      value: image/jpeg
+      value: image/png
   filesize:
     -
-      value: 250039
+      value: 5148
   status:
     -
       value: true
   created:
     -
-      value: 1720484707
+      value: 1722659141

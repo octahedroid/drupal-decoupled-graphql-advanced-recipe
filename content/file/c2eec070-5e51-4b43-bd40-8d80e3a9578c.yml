@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: c17bcae7-8d6d-4ff9-adfc-c4a23d3854c0
+  uuid: c2eec070-5e51-4b43-bd40-8d80e3a9578c
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: doc-tahedroid-avatar.png
+      value: octahedroid-preview-blog.png
   uri:
     -
-      value: 'public://2024-05/doc-tahedroid-avatar.png'
+      value: 'public://2024-05/octahedroid-preview-blog.png'
   filemime:
     -
       value: image/png
   filesize:
     -
-      value: 128570
+      value: 100544
   status:
     -
       value: true
   created:
     -
-      value: 1720484707
+      value: 1722659141

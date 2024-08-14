@@ -1,6 +1,6 @@
 {
-    "name": "octahedroid/drupal-decoupled-graphql-example-recipe",
-    "description": "Drupal site example that uses GQL to make decoupled site",
+    "name": "octahedroid/drupal-decoupled-graphql-advanced-recipe",
+    "description": "A Drupal site as a turnkey solution for a headless CMS, using a GraphQL endpoint to create a decoupled site.",
     "keywords": [
         "recipe",
         "drupal recipe",

@@ -179,7 +179,7 @@ settings:
   site_slogan: false
   site_front: false
   custom: {  }
-  fragments_enabled: false
+  fragments_enabled: true
 node:
   article:
     enabled: true

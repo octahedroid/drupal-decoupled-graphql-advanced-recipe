@@ -75,6 +75,7 @@ install:
   - graphql_compose_views
   - graphql_compose_metatags
   - graphql_compose_preview
+  - graphql_compose_fragments
 
 config:
   import:

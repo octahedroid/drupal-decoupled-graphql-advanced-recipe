@@ -26,6 +26,7 @@
         "drupal/gin_login": "^2.1",
         "drupal/gin_toolbar": "^1.0@RC",
         "drupal/graphql_compose": "^2.2",
+        "drupal/graphql_compose_fragments": "^1.0@beta",
         "drupal/graphql_compose_preview": "^1.0",
         "drupal/metatag": "^2.0",
         "drupal/override_node_options": "^2.8",

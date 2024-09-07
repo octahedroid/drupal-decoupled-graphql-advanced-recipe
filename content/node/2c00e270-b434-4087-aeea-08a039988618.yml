@@ -5,6 +5,7 @@ _meta:
   bundle: page
   default_langcode: en
   depends:
+    56016070-f852-41b3-924b-0e57c7311355: user
     d1c6efd8-9188-4dd3-8dd2-dd8a7dc7f473: media
     1d026c14-b0f0-4533-90ba-05dae7a5dc53: media
     05e73de7-c41c-4e74-b27d-9f04e4a48a3c: media

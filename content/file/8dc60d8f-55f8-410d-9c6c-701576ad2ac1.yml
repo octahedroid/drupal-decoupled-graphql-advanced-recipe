@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8dc60d8f-55f8-410d-9c6c-701576ad2ac1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: logo-react-160x64.png
+  uri:
+    -
+      value: 'public://2024-09/logo-react-160x64.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3369
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725585240

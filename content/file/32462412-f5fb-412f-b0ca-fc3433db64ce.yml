@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 32462412-f5fb-412f-b0ca-fc3433db64ce
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: logo-graphql-160x64.png
+  uri:
+    -
+      value: 'public://2024-09/logo-graphql-160x64.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2627
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725585255

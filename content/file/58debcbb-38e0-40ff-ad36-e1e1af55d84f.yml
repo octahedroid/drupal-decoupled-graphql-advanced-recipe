@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 58debcbb-38e0-40ff-ad36-e1e1af55d84f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: landscape-large.png
+  uri:
+    -
+      value: 'public://2024-09/landscape-large.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 8494
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725171312

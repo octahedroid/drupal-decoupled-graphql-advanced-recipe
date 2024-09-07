@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 905a0695-daf8-4002-a8a4-063440a59499
+  bundle: image
+  default_langcode: en
+  depends:
+    87234a8d-8e48-43fc-96ca-53ddece836df: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: logo-tailwindcss-160x64.png
+  created:
+    -
+      value: 1725586369
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drush Site-Install'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/home'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '| Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 87234a8d-8e48-43fc-96ca-53ddece836df
+      alt: Tailwind
+      title: ''
+      width: 160
+      height: 64

@@ -1,0 +1,151 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 10eea4fc-ced6-4b21-85fa-ac98f6431ad5
+  bundle: page
+  default_langcode: en
+  depends:
+    678da590-ee20-45e2-859c-3ad8d6d0f633: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Contact
+  created:
+    -
+      value: 1712346305
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Contact | Drush Site-Install'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/contact'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://drupal-decoupled.ddev.site/contact'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Contact | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Contact
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+  path:
+    -
+      alias: /contact
+      langcode: en
+      pathauto: 0
+  field_components:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 56e321bf-3399-4613-8fb2-590e1f601dc0
+          bundle: webform
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725581570
+          behavior_settings:
+            -
+              value: {  }
+          field_form:
+            -
+              value: contact
+          field_heading:
+            -
+              value: 'How can we help you?'
+          field_subheading:
+            -
+              value: 'We will contact you promptly to discuss next steps.'
+  field_image:
+    -
+      entity: 678da590-ee20-45e2-859c-3ad8d6d0f633
+  field_show_title:
+    -
+      value: true
+  field_summary:
+    -
+      value: lorem...

@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f75244df-c71b-45f8-af30-60466cfd0711
+  bundle: image
+  default_langcode: en
+  depends:
+    e7c86bc8-3a66-4922-adf1-c40a2d41f771: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: logo-next-160x64.png
+  created:
+    -
+      value: 1725586286
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Drush Site-Install'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/home'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '| Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: e7c86bc8-3a66-4922-adf1-c40a2d41f771
+      alt: Next.js
+      title: ''
+      width: 160
+      height: 64

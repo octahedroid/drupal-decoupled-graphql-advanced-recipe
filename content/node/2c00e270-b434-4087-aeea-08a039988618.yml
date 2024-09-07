@@ -1,0 +1,635 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2c00e270-b434-4087-aeea-08a039988618
+  bundle: page
+  default_langcode: en
+  depends:
+    d1c6efd8-9188-4dd3-8dd2-dd8a7dc7f473: media
+    1d026c14-b0f0-4533-90ba-05dae7a5dc53: media
+    05e73de7-c41c-4e74-b27d-9f04e4a48a3c: media
+    b2ac63e7-9f1a-4ee5-8f23-fb3d89bcbd29: media
+    df4ce4f9-e157-474b-afc1-1aaec5571723: media
+    f75244df-c71b-45f8-af30-60466cfd0711: media
+    905a0695-daf8-4002-a8a4-063440a59499: media
+    33f12057-a61c-4a5a-8468-59bc92924464: media
+    39f86b4b-fd6c-4cf2-85e4-5f1be96ce52d: media
+    91e36ae5-c844-474a-83fc-56308a080b83: node
+    678da590-ee20-45e2-859c-3ad8d6d0f633: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1712213307
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Home | Drush Site-Install'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/home'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://drupal-decoupled.ddev.site/home'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Home | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Home
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
+  path:
+    -
+      alias: /home
+      langcode: en
+      pathauto: 0
+  field_components:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 00a4e608-fa90-4520-bdf8-9e1651bee828
+          bundle: hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1719780132
+          behavior_settings:
+            -
+              value: {  }
+          field_actions:
+            -
+              uri: 'https://drupal-decoupled.octahedroid.com/'
+              title: 'Get Started'
+              options: {  }
+          field_description:
+            -
+              value: 'Discover the power of Drupal as a headless CMS with our quick-start ready to use and step-by-step guides.'
+          field_heading:
+            -
+              value: 'Think Outside the Drop'
+          field_image:
+            -
+              entity: d1c6efd8-9188-4dd3-8dd2-dd8a7dc7f473
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 05f32baa-2211-4502-9c39-30df90f52ae4
+          bundle: logo_group
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725246448
+          behavior_settings:
+            -
+              value: {  }
+          field_heading:
+            -
+              value: 'Built on the foundation of battle tested technologies'
+          field_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e71723f0-f7a1-4b19-a5bc-12597045e25d
+                  bundle: logo
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725252610
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_image:
+                    -
+                      entity: 1d026c14-b0f0-4533-90ba-05dae7a5dc53
+                  field_link:
+                    -
+                      uri: 'https://www.drupal.org/'
+                      title: Drupal
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2386ef79-19db-47d5-87da-ec68884b0404
+                  bundle: logo
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725252633
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_image:
+                    -
+                      entity: 05e73de7-c41c-4e74-b27d-9f04e4a48a3c
+                  field_link:
+                    -
+                      uri: 'https://react.dev/'
+                      title: React
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b2a86dde-0c69-444f-997e-0616efb09442
+                  bundle: logo
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725252655
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_image:
+                    -
+                      entity: b2ac63e7-9f1a-4ee5-8f23-fb3d89bcbd29
+                  field_link:
+                    -
+                      uri: 'https://graphql.org/'
+                      title: GraphQL
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bb54ebb7-ad71-422e-bf10-49b78345c8ca
+                  bundle: logo
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725586242
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_image:
+                    -
+                      entity: df4ce4f9-e157-474b-afc1-1aaec5571723
+                  field_link:
+                    -
+                      uri: 'https://remix.run/'
+                      title: Remix
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ef749564-dffd-4776-be9d-b2f423754efa
+                  bundle: logo
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725586280
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_image:
+                    -
+                      entity: f75244df-c71b-45f8-af30-60466cfd0711
+                  field_link:
+                    -
+                      uri: 'https://nextjs.org/'
+                      title: Next.js
+                      options: {  }
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 16b2c1a2-6509-4840-99b3-6844dd9935c3
+                  bundle: logo
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725586355
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_image:
+                    -
+                      entity: 905a0695-daf8-4002-a8a4-063440a59499
+                  field_link:
+                    -
+                      uri: 'https://tailwindcss.com/'
+                      title: Tailwind
+                      options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: db4a361c-518c-40ac-b8fd-056a6c8f0f4f
+          bundle: card_group
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725173766
+          behavior_settings:
+            -
+              value: {  }
+          field_heading:
+            -
+              value: 'How it works?'
+          field_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0bcd3a82-c3dd-4cac-8e00-3ee2ddcd5f96
+                  bundle: simple_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725173766
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_description:
+                    -
+                      value: 'Ready-to-use examples to test Drupal Decoupled and front end application'
+                  field_heading:
+                    -
+                      value: Quickstart
+                  field_image:
+                    -
+                      entity: 33f12057-a61c-4a5a-8468-59bc92924464
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 38e2498f-3246-4ffb-a38f-85e86cea9bff
+                  bundle: simple_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725173878
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_description:
+                    -
+                      value: 'Instructions to build a Drupal Decoupled project step by step following our guides.'
+                  field_heading:
+                    -
+                      value: 'Step by step'
+                  field_image:
+                    -
+                      entity: 33f12057-a61c-4a5a-8468-59bc92924464
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 260d1817-7f89-4316-85a3-8c6908487964
+                  bundle: simple_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725173897
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_description:
+                    -
+                      value: 'Learn everything you need to know about decoupling Drupal and how to leverage its power.'
+                  field_heading:
+                    -
+                      value: Concepts
+                  field_image:
+                    -
+                      entity: 33f12057-a61c-4a5a-8468-59bc92924464
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9d614a8e-4d79-4676-8107-5fd09552d285
+          bundle: cta
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725176082
+          behavior_settings:
+            -
+              value: {  }
+          field_actions:
+            -
+              uri: 'https://drupal-decoupled.octahedroid.com/docs/getting-started/quickstart/drupal'
+              title: 'Learn mode'
+              options: {  }
+          field_description:
+            -
+              value: "Using this starter, you'll explore a ready-to-use Drupal GraphQL Project preloaded with content, a GraphQL server and a simple OAuth configuration."
+          field_heading:
+            -
+              value: 'Ready-to-use examples to test Drupal Decoupled and front end application'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 472b5747-b2eb-4c2c-8634-5580cc2c3cfe
+          bundle: testimonial
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725253917
+          behavior_settings:
+            -
+              value: {  }
+          field_author:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 18f34ede-f935-491a-8db1-d602f0d8e8a2
+                  bundle: author
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725480631
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_company:
+                    -
+                      value: Octahedroid
+                  field_image:
+                    -
+                      entity: 39f86b4b-fd6c-4cf2-85e4-5f1be96ce52d
+                  field_name:
+                    -
+                      value: 'Doc Tahedroid'
+                  field_position:
+                    -
+                      value: CEO
+          field_quote:
+            -
+              value: "This solution has revolutionized how we manage our projects. It's a game-changer for our team's productivity"
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2c24e64c-5e10-4a48-8aa1-eef8d538db20
+          bundle: faq
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725178305
+          behavior_settings:
+            -
+              value: {  }
+          field_description:
+            -
+              value: 'In this section you will find answers and guides for different integration cases'
+          field_heading:
+            -
+              value: 'Frequently asked questions'
+          field_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b94db55c-8d55-48d3-bff0-92dced97fb26
+                  bundle: question
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725178305
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_answer:
+                    -
+                      value: '<p>This guide covers how to add Paragraphs to a content type in Drupal and then expose them to the GraphQL schema to be consumed by a front end application.</p><p><a href="https://drupal-decoupled.octahedroid.com/docs/guides/paragraphs">Link to paragraphs guide</a></p>'
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'How to integrate Paragraphs ?'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 90fe30db-27e2-43e3-b2a9-7a76b20b14bd
+                  bundle: question
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1725178428
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_answer:
+                    -
+                      value: '<p>This guide covers how to set meta tags from an article content type in Drupal to a front end app for SEO purposes.</p><p><a href="https://drupal-decoupled.octahedroid.com/docs/guides/seo-meta-tags">Link to metatags guide</a></p>'
+                      format: basic_html
+                  field_question:
+                    -
+                      value: 'How to integrate Meta-tags ?'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 826cdd99-fecc-46a2-9939-833b1ac15255
+          bundle: view_reference
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1725221670
+          behavior_settings:
+            -
+              value: {  }
+          field_heading:
+            -
+              value: 'Discover our content hub, a diverse collection of valuable resources designed to inspire, educate, and empower.'
+          field_link:
+            -
+              target_uuid: 91e36ae5-c844-474a-83fc-56308a080b83
+              title: 'View all'
+              options: {  }
+          field_reference:
+            -
+              target_id: blog
+              display_id: blog_teaser
+              arguments: ''
+              items_to_display: ''
+  field_image:
+    -
+      entity: 678da590-ee20-45e2-859c-3ad8d6d0f633
+  field_show_title:
+    -
+      value: false
+  field_summary:
+    -
+      value: 'Using Drupal as a headless CMS with a Decoupled front-end implementation is a great way to get an enterprise-quality CMS, paired with a great modern development experience using Remix, Next.js, Astro and/or others.'

@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 345d6b65-7cf9-4369-a667-dfb2a43a7913
+  bundle: article
+  default_langcode: en
+  depends:
+    56016070-f852-41b3-924b-0e57c7311355: user
+    5206febf-a64b-4066-85dd-0672a44a493f: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 56016070-f852-41b3-924b-0e57c7311355
+  title:
+    -
+      value: 'The Case for Keeping Drupal in Your Decoupled Setup'
+  created:
+    -
+      value: 1725674989
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'The Case for Keeping Drupal in Your Decoupled Setup | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal combines flexibility, power, and scalability to deliver an exceptional foundation for your decoupled architecture.Drupal’s modular architecture and ecosystem of contributed modules make it an ideal choice for seamless integration with a wide range of third-party systems, services, and APIs. Its core JSON:API and contributed modules, like GraphQL and GraphQL Compose, empowers developers to expose content and data as APIs effortlessly, further enhancing its suitability for headless CMS implementations.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal combines flexibility, power, and scalability to deliver an exceptional foundation for your decoupled architecture.Drupal’s modular architecture and ecosystem of contributed modules make it an ideal choice for seamless integration with a wide range of third-party systems, services, and APIs. Its core JSON:API and contributed modules, like GraphQL and GraphQL Compose, empowers developers to expose content and data as APIs effortlessly, further enhancing its suitability for headless CMS implementations.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/blog/case-keeping-drupal-your-decoupled-setup'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://drupal-decoupled.ddev.site/blog/case-keeping-drupal-your-decoupled-setup'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'The Case for Keeping Drupal in Your Decoupled Setup | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Drupal combines flexibility, power, and scalability to deliver an exceptional foundation for your decoupled architecture.Drupal’s modular architecture and ecosystem of contributed modules make it an ideal choice for seamless integration with a wide range of third-party systems, services, and APIs. Its core JSON:API and contributed modules, like GraphQL and GraphQL Compose, empowers developers to expose content and data as APIs effortlessly, further enhancing its suitability for headless CMS implementations.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Drupal combines flexibility, power, and scalability to deliver an exceptional foundation for your decoupled architecture.Drupal’s modular architecture and ecosystem of contributed modules make it an ideal choice for seamless integration with a wide range of third-party systems, services, and APIs. Its core JSON:API and contributed modules, like GraphQL and GraphQL Compose, empowers developers to expose content and data as APIs effortlessly, further enhancing its suitability for headless CMS implementations.'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'The Case for Keeping Drupal in Your Decoupled Setup'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+  path:
+    -
+      alias: /blog/case-keeping-drupal-your-decoupled-setup
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Drupal combines flexibility, power, and scalability to deliver an exceptional foundation for your decoupled architecture.</p><p>Drupal’s modular architecture and ecosystem of contributed modules make it an ideal choice for seamless integration with a wide range of third-party systems, services, and APIs. Its core JSON:API and contributed modules, like GraphQL and GraphQL Compose, empowers developers to expose content and data as APIs effortlessly, further enhancing its suitability for headless CMS implementations.</p><p>In a decoupled or headless setup, Drupal also excels with features like an intuitive content editor, flexible content modeling, granular access controls, and powerful revisioning capabilities.</p><p>Additionally, Drupal is built to handle high traffic and large content volumes without sacrificing performance. Its advanced caching mechanisms, CDN integration, and performance optimization features ensure rapid content delivery, in high-demand environments.</p><p>Discover more about the benefits of Drupal as a headless CMS <a href="https://octahedroid.com/blog/why-drupal-headless-cms-future-content-management">here</a>.&nbsp;<br>&nbsp;</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 5206febf-a64b-4066-85dd-0672a44a493f
+  field_summary:
+    -
+      value: 'Drupal combines flexibility, power, and scalability to deliver an exceptional foundation for your decoupled architecture.'

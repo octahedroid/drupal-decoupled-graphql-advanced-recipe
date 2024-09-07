@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 002b9253-2d29-4cc2-a0d8-823d375c21e3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: logo-remix-160x64.png
+  uri:
+    -
+      value: 'public://2024-09/logo-remix-160x64.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2022
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725586256

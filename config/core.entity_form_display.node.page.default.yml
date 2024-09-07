@@ -1,3 +1,4 @@
+uuid: ce0345e5-8748-47fc-80c1-675351b5995c
 langcode: en
 status: true
 dependencies:
@@ -20,6 +21,7 @@ third_party_settings:
       children:
         - group_basic
         - group_components
+        - group_social_sharing
         - group_metatag
       label: Tabs
       region: content
@@ -36,9 +38,7 @@ third_party_settings:
       children:
         - title
         - field_show_title
-        - field_image
-        - field_summary
-      label: Info
+      label: Basic
       region: content
       parent_name: group_tabs
       weight: 20
@@ -47,10 +47,10 @@ third_party_settings:
         classes: ''
         show_empty_fields: false
         id: ''
+        label_as_html: false
         formatter: closed
         description: ''
-        required_fields: true
-        open: false
+        required_fields: false
     group_components:
       children:
         - field_components
@@ -63,10 +63,10 @@ third_party_settings:
         classes: ''
         show_empty_fields: false
         id: ''
+        label_as_html: false
         formatter: closed
         description: ''
-        required_fields: true
-        open: false
+        required_fields: false
     group_metatag:
       children:
         - field_metatag
@@ -83,6 +83,25 @@ third_party_settings:
         description: ''
         required_fields: true
         open: false
+    group_social_sharing:
+      children:
+        - field_image
+        - field_summary
+      label: 'Social Sharing'
+      region: content
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: false
+_core:
+  default_config_hash: uwJTv4pn0EpM0KyRsfWK3XQV4zzOTAr6_PlYC267Y-U
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -116,14 +135,14 @@ content:
     third_party_settings: {  }
   field_image:
     type: media_library_widget
-    weight: 3
+    weight: 24
     region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
   field_metatag:
     type: metatag_firehose
-    weight: 1
+    weight: 6
     region: content
     settings:
       sidebar: false
@@ -138,7 +157,7 @@ content:
     third_party_settings: {  }
   field_summary:
     type: string_textarea
-    weight: 4
+    weight: 25
     region: content
     settings:
       rows: 5
@@ -146,27 +165,27 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 7
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 5
+    weight: 6
     region: content
     settings:
       display_label: false
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 9
+    weight: 10
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 6
+    weight: 7
     region: content
     settings:
       display_label: true
@@ -181,7 +200,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 1
     region: content
     settings:
       match_operator: CONTAINS
@@ -190,7 +209,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 8
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }

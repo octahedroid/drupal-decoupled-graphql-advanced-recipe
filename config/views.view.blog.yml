@@ -1,3 +1,4 @@
+uuid: 23c45630-dd06-46ea-b470-288080398ded
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
     - graphql_compose_views
     - node
     - user
+_core:
+  default_config_hash: qlHGJX5HGi7WvXmGJQ9jIQ1z2IDu5t8nMD48LVokUSQ
 id: blog
 label: Blog
 module: views
@@ -174,12 +177,36 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  blog_featured:
+    id: blog_featured
+    display_title: 'Blog Teaser Featured'
+    display_plugin: graphql
+    position: 2
+    display_options:
+      display_description: ''
+      display_extenders: {  }
+      graphql_query_name: viewBlogTeaserFeatured
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   blog_teaser:
     id: blog_teaser
-    display_title: GraphQL
+    display_title: 'Blog Teaser'
     display_plugin: graphql
     position: 1
     display_options:
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 3
+      display_description: ''
       display_extenders: {  }
       graphql_query_name: viewBlogTeaser
     cache_metadata:

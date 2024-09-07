@@ -1,3 +1,4 @@
+uuid: afe822fc-eb81-49f2-8493-4faa7cf2d86f
 langcode: en
 status: true
 dependencies:
@@ -5,13 +6,17 @@ dependencies:
     - field.storage.node.field_components
     - node.type.page
     - paragraphs.paragraphs_type.card_group
+    - paragraphs.paragraphs_type.cta
+    - paragraphs.paragraphs_type.faq
     - paragraphs.paragraphs_type.hero
-    - paragraphs.paragraphs_type.image
-    - paragraphs.paragraphs_type.static_component
-    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.logo_group
+    - paragraphs.paragraphs_type.testimonial
     - paragraphs.paragraphs_type.view_reference
+    - paragraphs.paragraphs_type.webform
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: UvT3ptItur0_PqY7jWJ5Z9FSC9-RH1QzkIh8iSl7eeU
 id: node.page.field_components
 field_name: field_components
 entity_type: node
@@ -27,35 +32,52 @@ settings:
   handler_settings:
     target_bundles:
       hero: hero
-      text: text
-      image: image
-      static_component: static_component
-      view_reference: view_reference
+      cta: cta
       card_group: card_group
+      logo_group: logo_group
+      faq: faq
+      testimonial: testimonial
+      view_reference: view_reference
+      webform: webform
     negate: 0
     target_bundles_drag_drop:
-      card:
-        weight: 9
+      author:
+        weight: 14
         enabled: false
       card_group:
-        weight: 10
+        weight: -25
         enabled: true
-      code_block:
-        weight: -12
-        enabled: false
+      cta:
+        weight: -26
+        enabled: true
+      faq:
+        weight: -22
+        enabled: true
       hero:
+        weight: -27
+        enabled: true
+      logo:
+        weight: -18
+        enabled: false
+      logo_group:
+        weight: -24
+        enabled: true
+      question:
+        weight: -15
+        enabled: false
+      simple_card:
         weight: -17
-        enabled: true
-      image:
-        weight: -13
-        enabled: true
+        enabled: false
       static_component:
-        weight: -11
-        enabled: true
-      text:
-        weight: -16
+        weight: -19
+        enabled: false
+      testimonial:
+        weight: -21
         enabled: true
       view_reference:
-        weight: -10
+        weight: -20
+        enabled: true
+      webform:
+        weight: 26
         enabled: true
 field_type: entity_reference_revisions

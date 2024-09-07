@@ -11,26 +11,19 @@ entity_config:
     wide:
       enabled: false
   media:
-    audio:
-      enabled: false
-    document:
-      enabled: false
     image:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
       routes_enabled: true
-    remote_video:
-      enabled: false
-    video:
-      enabled: false
   menu:
     account:
       enabled: false
     admin:
       enabled: false
     footer:
-      enabled: false
+      enabled: true
+      menu_route_enabled: true
     main:
       enabled: true
       menu_route_enabled: true
@@ -48,7 +41,7 @@ entity_config:
       edges_enabled: true
       routes_enabled: true
   paragraph:
-    card:
+    author:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
@@ -56,7 +49,11 @@ entity_config:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
-    code_block:
+    cta:
+      enabled: true
+      query_load_enabled: true
+      edges_enabled: true
+    faq:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
@@ -64,19 +61,26 @@ entity_config:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
-    image:
+    logo:
+      enabled: true
+      query_load_enabled: true
+    logo_group:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
-    static_component:
+    question:
       enabled: true
-      query_load_enabled: true
-      edges_enabled: true
-    text:
+    simple_card:
+      enabled: true
+    testimonial:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
     view_reference:
+      enabled: true
+      query_load_enabled: true
+      edges_enabled: true
+    webform:
       enabled: true
       query_load_enabled: true
       edges_enabled: true
@@ -98,7 +102,7 @@ field_config:
         enabled: true
   node:
     article:
-      field_components:
+      body:
         enabled: true
       field_image:
         enabled: true
@@ -116,55 +120,96 @@ field_config:
       field_summary:
         enabled: true
   paragraph:
-    card:
-      field_cta:
+    author:
+      field_company:
         enabled: true
       field_image:
         enabled: true
-      field_text:
+      field_name:
         enabled: true
-      field_title:
+      field_position:
         enabled: true
     card_group:
+      field_description:
+        enabled: true
+      field_heading:
+        enabled: true
       field_items:
         enabled: true
-      field_title:
+      field_subheading:
         enabled: true
-    code_block:
-      field_code:
+    cta:
+      field_actions:
         enabled: true
-      field_language:
+      field_description:
         enabled: true
-      field_show_line_numbers:
+      field_heading:
         enabled: true
-      field_title:
+      field_subheading:
         enabled: true
-        name_sdl: titleOptional
+    faq:
+      field_description:
+        enabled: true
+      field_heading:
+        enabled: true
+      field_items:
+        enabled: true
     hero:
+      field_actions:
+        enabled: true
+      field_description:
+        enabled: true
+      field_heading:
+        enabled: true
       field_image:
         enabled: true
-      field_text:
-        enabled: true
-      field_title:
-        enabled: true
-    image:
+    logo:
       field_image:
         enabled: true
-    static_component:
-      field_component:
+      field_link:
         enabled: true
-    text:
-      field_text_rich:
+    logo_group:
+      field_heading:
         enabled: true
-      field_title:
+      field_items:
+        enabled: true
+    question:
+      field_answer:
+        enabled: true
+      field_question:
+        enabled: true
+    simple_card:
+      field_description:
+        enabled: true
+      field_heading:
+        enabled: true
+      field_image:
+        enabled: true
+    testimonial:
+      field_author:
+        enabled: true
+      field_quote:
         enabled: true
     view_reference:
+      field_description:
+        enabled: true
+      field_heading:
+        enabled: true
+      field_link:
+        enabled: true
       field_reference:
         enabled: true
         viewfield_query: true
-      field_text:
+      field_subheading:
         enabled: true
-      field_title:
+    webform:
+      field_description:
+        enabled: true
+      field_form:
+        enabled: true
+      field_heading:
+        enabled: true
+      field_subheading:
         enabled: true
   user:
     user:
@@ -217,23 +262,7 @@ media:
     query_load_enabled: false
     edges_enabled: false
     routes_enabled: false
-paragraph:
-  code_block:
-    enabled: true
-    query_load_enabled: true
-    edges_enabled: true
-  image:
-    enabled: true
-    query_load_enabled: true
-    edges_enabled: true
-  static_component:
-    enabled: true
-    query_load_enabled: true
-    edges_enabled: true
-  text:
-    enabled: true
-    query_load_enabled: true
-    edges_enabled: true
+paragraph: {  }
 taxonomy_term: {  }
 image_style:
   large:

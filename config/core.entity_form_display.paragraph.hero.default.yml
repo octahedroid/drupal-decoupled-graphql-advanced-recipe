@@ -1,13 +1,16 @@
+uuid: 1ee6bbe8-433e-47c6-93bc-82e24955d384
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.hero.field_actions
+    - field.field.paragraph.hero.field_description
+    - field.field.paragraph.hero.field_heading
     - field.field.paragraph.hero.field_image
-    - field.field.paragraph.hero.field_text
-    - field.field.paragraph.hero.field_title
     - paragraphs.paragraphs_type.hero
   module:
     - field_group
+    - link
     - media_library
 third_party_settings:
   field_group:
@@ -15,7 +18,7 @@ third_party_settings:
       children:
         - group_basic
         - group_media
-        - group_settings
+        - group_actions
       label: Tabs
       region: content
       parent_name: ''
@@ -29,8 +32,8 @@ third_party_settings:
         width_breakpoint: 640
     group_basic:
       children:
-        - field_title
-        - field_text
+        - field_heading
+        - field_description
       label: Basic
       region: content
       parent_name: group_tabs
@@ -58,9 +61,10 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
-    group_settings:
-      children: {  }
-      label: Settings
+    group_actions:
+      children:
+        - field_actions
+      label: Actions
       region: content
       parent_name: group_tabs
       weight: 22
@@ -69,36 +73,47 @@ third_party_settings:
         classes: ''
         show_empty_fields: false
         id: ''
+        label_as_html: false
         formatter: closed
         description: ''
         required_fields: true
+_core:
+  default_config_hash: vGUtHtk0o6LuqYFucobJGe5iI8GnXF6o64ZJ2YcGpQg
 id: paragraph.hero.default
 targetEntityType: paragraph
 bundle: hero
 mode: default
 content:
+  field_actions:
+    type: link_default
+    weight: 25
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_description:
+    type: string_textarea
+    weight: 24
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 23
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_image:
     type: media_library_widget
     weight: 3
     region: content
     settings:
       media_types: {  }
-    third_party_settings: {  }
-  field_text:
-    type: string_textarea
-    weight: 2
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-  field_title:
-    type: string_textfield
-    weight: 1
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true

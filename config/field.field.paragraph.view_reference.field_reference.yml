@@ -1,3 +1,4 @@
+uuid: 5d3e643c-d272-43d5-ae34-2d29244bd499
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.view_reference
   module:
     - viewfield
+_core:
+  default_config_hash: 2iFQvBwTe-fw57FyJS9u1nUiLC54YJrSk_f1mFei8zQ
 id: paragraph.view_reference.field_reference
 field_name: field_reference
 entity_type: paragraph
@@ -23,22 +26,19 @@ settings:
     content: '0'
     block_content: '0'
     files: '0'
-    frontpage: '0'
     media: '0'
     media_library: '0'
     user_admin_people: '0'
     content_recent: '0'
     redirect: '0'
-    taxonomy_term: '0'
     watchdog: '0'
-    who_s_new: '0'
-    who_s_online: '0'
   allowed_display_types:
-    block: block
     graphql: graphql
+    block: '0'
     default: '0'
-    feed: '0'
     page: '0'
   handler: 'default:view'
-  handler_settings: {  }
+  handler_settings:
+    target_bundles: null
+    auto_create: false
 field_type: viewfield

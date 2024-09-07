@@ -1,4 +1,3 @@
-uuid: fa903d95-5c2f-4961-87b7-e91a88e1a478
 langcode: en
 status: true
 dependencies:
@@ -13,8 +12,6 @@ dependencies:
     - metatag
     - text
     - user
-_core:
-  default_config_hash: sjY_ujx_urrPn9jh4XlQAJzuiymoB8ylXRCpxwhpkpU
 id: node.article.default
 targetEntityType: node
 bundle: article

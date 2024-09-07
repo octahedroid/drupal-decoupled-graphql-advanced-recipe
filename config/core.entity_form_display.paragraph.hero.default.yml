@@ -1,4 +1,3 @@
-uuid: 1ee6bbe8-433e-47c6-93bc-82e24955d384
 langcode: en
 status: true
 dependencies:
@@ -77,8 +76,6 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
-_core:
-  default_config_hash: vGUtHtk0o6LuqYFucobJGe5iI8GnXF6o64ZJ2YcGpQg
 id: paragraph.hero.default
 targetEntityType: paragraph
 bundle: hero

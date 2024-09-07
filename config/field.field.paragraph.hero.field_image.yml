@@ -1,4 +1,3 @@
-uuid: b84c0dd2-a995-489f-8c86-02715838bad4
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - field.storage.paragraph.field_image
     - media.type.image
     - paragraphs.paragraphs_type.hero
-_core:
-  default_config_hash: QHDvX9B_-NTvQ-k9r3NjaiaUV4J22ZHzIRvFx1snQgI
 id: paragraph.hero.field_image
 field_name: field_image
 entity_type: paragraph

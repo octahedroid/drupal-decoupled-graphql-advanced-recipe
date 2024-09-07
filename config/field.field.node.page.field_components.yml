@@ -1,4 +1,3 @@
-uuid: afe822fc-eb81-49f2-8493-4faa7cf2d86f
 langcode: en
 status: true
 dependencies:
@@ -15,8 +14,6 @@ dependencies:
     - paragraphs.paragraphs_type.webform
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: UvT3ptItur0_PqY7jWJ5Z9FSC9-RH1QzkIh8iSl7eeU
 id: node.page.field_components
 field_name: field_components
 entity_type: node

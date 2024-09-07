@@ -1,4 +1,3 @@
-uuid: c43b6216-e66a-431c-ba4c-5c6deba097f2
 langcode: en
 status: true
 dependencies:
@@ -82,8 +81,6 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
-_core:
-  default_config_hash: mkbe66g3sNAcE29xFRJvP_8goVf4raX8nAFCTUJiKDw
 id: paragraph.view_reference.default
 targetEntityType: paragraph
 bundle: view_reference

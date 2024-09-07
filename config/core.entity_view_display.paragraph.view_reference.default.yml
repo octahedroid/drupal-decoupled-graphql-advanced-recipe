@@ -1,4 +1,3 @@
-uuid: cc03ea1f-31f1-4056-a8cb-cd8d2f246f26
 langcode: en
 status: true
 dependencies:
@@ -12,8 +11,6 @@ dependencies:
   module:
     - link
     - viewfield
-_core:
-  default_config_hash: px1Ob8T0Qs1kO0WR0i2XENg6-NJWkZFl4IxPjpVYkmw
 id: paragraph.view_reference.default
 targetEntityType: paragraph
 bundle: view_reference

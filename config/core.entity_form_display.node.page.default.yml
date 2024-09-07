@@ -1,4 +1,3 @@
-uuid: ce0345e5-8748-47fc-80c1-675351b5995c
 langcode: en
 status: true
 dependencies:
@@ -100,8 +99,6 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: false
-_core:
-  default_config_hash: uwJTv4pn0EpM0KyRsfWK3XQV4zzOTAr6_PlYC267Y-U
 id: node.page.default
 targetEntityType: node
 bundle: page

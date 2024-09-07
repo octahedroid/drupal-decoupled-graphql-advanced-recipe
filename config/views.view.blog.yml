@@ -1,4 +1,3 @@
-uuid: 23c45630-dd06-46ea-b470-288080398ded
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
     - graphql_compose_views
     - node
     - user
-_core:
-  default_config_hash: qlHGJX5HGi7WvXmGJQ9jIQ1z2IDu5t8nMD48LVokUSQ
 id: blog
 label: Blog
 module: views

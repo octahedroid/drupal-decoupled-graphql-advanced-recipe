@@ -1,4 +1,3 @@
-uuid: 5d3e643c-d272-43d5-ae34-2d29244bd499
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
     - paragraphs.paragraphs_type.view_reference
   module:
     - viewfield
-_core:
-  default_config_hash: 2iFQvBwTe-fw57FyJS9u1nUiLC54YJrSk_f1mFei8zQ
 id: paragraph.view_reference.field_reference
 field_name: field_reference
 entity_type: paragraph

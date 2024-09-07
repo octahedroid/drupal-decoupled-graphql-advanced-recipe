@@ -1,9 +1,6 @@
-uuid: 041db85a-f4ea-4e64-9440-868f8b12ad59
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: dgMKkfOJ_Mjt29OaNU1xHMcJhwTRFYRXSWMtf2LEdEA
 id: hero
 label: Hero
 icon_uuid: null

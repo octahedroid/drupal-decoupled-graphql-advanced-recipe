@@ -1,4 +1,3 @@
-uuid: eaaf7dec-f107-4e79-bbac-237e19e12344
 langcode: en
 status: true
 dependencies:
@@ -10,8 +9,6 @@ dependencies:
     - paragraphs.paragraphs_type.hero
   module:
     - link
-_core:
-  default_config_hash: ZphJmJJrasq77swCW4jB8jHo7KYJmpqP8kqT7QyiRAg
 id: paragraph.hero.default
 targetEntityType: paragraph
 bundle: hero

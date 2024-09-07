@@ -1,0 +1,10 @@
+uuid: 9689fa31-ae33-4190-982d-19f37e6299db
+langcode: en
+status: true
+dependencies: {  }
+id: simple_card
+label: 'Simple Card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

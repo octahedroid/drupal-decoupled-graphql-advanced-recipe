@@ -1,0 +1,10 @@
+uuid: 53387543-1c0e-4935-bead-a97e938198cf
+langcode: en
+status: true
+dependencies: {  }
+id: logo_group
+label: 'Logo Group'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

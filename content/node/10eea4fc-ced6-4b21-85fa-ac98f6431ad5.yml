@@ -16,7 +16,7 @@ default:
       value: true
   uid:
     -
-      target_id: 1
+      entity: 56016070-f852-41b3-924b-0e57c7311355
   title:
     -
       value: Contact

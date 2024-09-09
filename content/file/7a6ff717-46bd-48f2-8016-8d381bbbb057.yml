@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7a6ff717-46bd-48f2-8016-8d381bbbb057
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hero-landscape-large.png
+  uri:
+    -
+      value: 'public://2024-09/hero-landscape-large.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 55192
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725674245

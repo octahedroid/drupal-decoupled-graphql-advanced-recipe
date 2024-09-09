@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_group.field_heading
+    - field.field.paragraph.logo_group.field_items
+    - paragraphs.paragraphs_type.logo_group
+  module:
+    - entity_reference_revisions
+id: paragraph.logo_group.default
+targetEntityType: paragraph
+bundle: logo_group
+mode: default
+content:
+  field_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden: {  }

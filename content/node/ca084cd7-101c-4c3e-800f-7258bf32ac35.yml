@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ca084cd7-101c-4c3e-800f-7258bf32ac35
+  bundle: article
+  default_langcode: en
+  depends:
+    56016070-f852-41b3-924b-0e57c7311355: user
+    5206febf-a64b-4066-85dd-0672a44a493f: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 56016070-f852-41b3-924b-0e57c7311355
+  title:
+    -
+      value: 'Taking Drupal Further with Drupal Decoupled'
+  created:
+    -
+      value: 1725675336
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Taking Drupal Further with Drupal Decoupled | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal Decoupled is our signature approach to using Drupal in a decoupled environment, through an efficient, fast, and out-of-the-box experience.Drupal has traditionally been a monolithic CMS with tightly integrated content management and presentation layers, but its flexibility enables a decoupled approach, separating the front-end presentation from the back-end content management.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal Decoupled is our signature approach to using Drupal in a decoupled environment, through an efficient, fast, and out-of-the-box experience.Drupal has traditionally been a monolithic CMS with tightly integrated content management and presentation layers, but its flexibility enables a decoupled approach, separating the front-end presentation from the back-end content management.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/blog/taking-drupal-further-drupal-decoupled'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://drupal-decoupled.ddev.site/blog/taking-drupal-further-drupal-decoupled'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Taking Drupal Further with Drupal Decoupled | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Drupal Decoupled is our signature approach to using Drupal in a decoupled environment, through an efficient, fast, and out-of-the-box experience.Drupal has traditionally been a monolithic CMS with tightly integrated content management and presentation layers, but its flexibility enables a decoupled approach, separating the front-end presentation from the back-end content management.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Drupal Decoupled is our signature approach to using Drupal in a decoupled environment, through an efficient, fast, and out-of-the-box experience.Drupal has traditionally been a monolithic CMS with tightly integrated content management and presentation layers, but its flexibility enables a decoupled approach, separating the front-end presentation from the back-end content management.'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Taking Drupal Further with Drupal Decoupled'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+  path:
+    -
+      alias: /blog/taking-drupal-further-drupal-decoupled
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Drupal Decoupled is our signature approach to using Drupal in a decoupled environment, through an efficient, fast, and out-of-the-box experience.</p><p>Drupal has traditionally been a monolithic CMS with tightly integrated content management and presentation layers, but its flexibility enables a decoupled approach, separating the front-end presentation from the back-end content management.</p><p>Drupal Decoupled simplifies this transition to a decoupled architecture, combining the power of Drupal's content management with the freedom to create a fully customized front end using any modern technologies of your choosing, all while streamlining and accelerating your development process.</p><p>With Drupal Decoupled, you can leverage the best of both worlds: Drupal’s robust content management capabilities and modern front-end flexibility.</p><p>Learn more about Drupal Decoupled in our full article here.<br>&nbsp;</p>"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 5206febf-a64b-4066-85dd-0672a44a493f
+  field_summary:
+    -
+      value: 'Drupal Decoupled is our signature approach to using Drupal in a decoupled environment, through an efficient, fast, and out-of-the-box experience.'

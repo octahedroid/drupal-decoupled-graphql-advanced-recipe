@@ -2,17 +2,47 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.view_reference.field_description
+    - field.field.paragraph.view_reference.field_heading
+    - field.field.paragraph.view_reference.field_link
     - field.field.paragraph.view_reference.field_reference
-    - field.field.paragraph.view_reference.field_text
-    - field.field.paragraph.view_reference.field_title
+    - field.field.paragraph.view_reference.field_subheading
     - paragraphs.paragraphs_type.view_reference
   module:
+    - link
     - viewfield
 id: paragraph.view_reference.default
 targetEntityType: paragraph
 bundle: view_reference
 mode: default
 content:
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_reference:
     type: viewfield_default
     label: above
@@ -23,19 +53,12 @@ content:
     third_party_settings: {  }
     weight: 3
     region: content
-  field_text:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_title:
+  field_subheading:
     type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 0
+    weight: 5
     region: content
 hidden: {  }

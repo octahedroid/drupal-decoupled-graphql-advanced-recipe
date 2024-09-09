@@ -23,22 +23,19 @@ settings:
     content: '0'
     block_content: '0'
     files: '0'
-    frontpage: '0'
     media: '0'
     media_library: '0'
     user_admin_people: '0'
     content_recent: '0'
     redirect: '0'
-    taxonomy_term: '0'
     watchdog: '0'
-    who_s_new: '0'
-    who_s_online: '0'
   allowed_display_types:
-    block: block
     graphql: graphql
+    block: '0'
     default: '0'
-    feed: '0'
     page: '0'
   handler: 'default:view'
-  handler_settings: {  }
+  handler_settings:
+    target_bundles: null
+    auto_create: false
 field_type: viewfield

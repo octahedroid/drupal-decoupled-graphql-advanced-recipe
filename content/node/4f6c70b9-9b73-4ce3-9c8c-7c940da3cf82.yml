@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4f6c70b9-9b73-4ce3-9c8c-7c940da3cf82
+  bundle: article
+  default_langcode: en
+  depends:
+    56016070-f852-41b3-924b-0e57c7311355: user
+    5206febf-a64b-4066-85dd-0672a44a493f: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 56016070-f852-41b3-924b-0e57c7311355
+  title:
+    -
+      value: 'Which modules Drupal Decoupled use?'
+  created:
+    -
+      value: 1725674866
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Which modules Drupal Decoupled use? | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Drupal Decoupled is built using a combination of powerful modules to achieve results:\_GraphQL: This module lets you craft and expose a GraphQL schema for Drupal 10 and 11."
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: "Drupal Decoupled is built using a combination of powerful modules to achieve results:\_GraphQL: This module lets you craft and expose a GraphQL schema for Drupal 10 and 11."
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/blog/which-modules-drupal-decoupled-use'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://drupal-decoupled.ddev.site/blog/which-modules-drupal-decoupled-use'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Which modules Drupal Decoupled use? | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Drupal Decoupled is built using a combination of powerful modules to achieve results:\_GraphQL: This module lets you craft and expose a GraphQL schema for Drupal 10 and 11."
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: "Drupal Decoupled is built using a combination of powerful modules to achieve results:\_GraphQL: This module lets you craft and expose a GraphQL schema for Drupal 10 and 11."
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Which modules Drupal Decoupled use?'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+  path:
+    -
+      alias: /blog/which-modules-drupal-decoupled-use
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">Drupal Decoupled is built using a combination of powerful modules to achieve results:</p><p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr">&nbsp;</p><ul><li><p style="line-height:1.38;margin-bottom:0pt;margin-top:0pt;" dir="ltr"><a href="https://www.drupal.org/project/graphql">GraphQL</a>: This module lets you craft and expose a GraphQL schema for Drupal 10 and 11.</p></li><li><a href="https://www.drupal.org/project/graphql_compose">GraphQL Compose</a>: A Drupal GraphQL 4.x schema generator.</li><li><a href="https://www.drupal.org/project/decoupled_preview_iframe">Decouple Preview Iframe</a>: Preview Drupal content from your decoupled front-end site, embedding an Iframe with the content of your FE application</li><li><a href="https://www.drupal.org/project/visual_editor">Visual Editor</a>: Provide an off-canvas integration to edit the full-node, it also provides a way to communicate form FE to BE to click FE Components and send a message to Drupal to open the visual_editor and edit that data.</li><li><a href="https://www.drupal.org/project/simple_oauth">Simple OAuth</a>: Simple OAuth is an implementation of the OAuth 2.0 Authorization Framework RFC.</li><li><a href="https://www.drupal.org/project/paragraphs">Paragraphs</a>: Allows you Site Builders to create structure content.</li><li><a href="https://www.drupal.org/project/metatag">Metatag</a>: The Metatag module allows you to automatically provide structured metadata, aka "meta tags", about a website</li></ul><p>Explore our journey pushing Drupal forward in this article <a href="https://octahedroid.com/blog/drupal-composable-cms-next-generation-structured-content">here</a>.&nbsp;</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 5206febf-a64b-4066-85dd-0672a44a493f
+  field_summary:
+    -
+      value: "Drupal Decoupled is built using a combination of powerful modules to achieve results.\r\n\r\n"

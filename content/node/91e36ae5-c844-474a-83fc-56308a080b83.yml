@@ -5,7 +5,8 @@ _meta:
   bundle: page
   default_langcode: en
   depends:
-    d40d2692-a1cf-462f-8840-eb39bc1fc509: media
+    56016070-f852-41b3-924b-0e57c7311355: user
+    678da590-ee20-45e2-859c-3ad8d6d0f633: media
 default:
   revision_uid:
     -
@@ -15,7 +16,7 @@ default:
       value: true
   uid:
     -
-      target_id: 0
+      entity: 56016070-f852-41b3-924b-0e57c7311355
   title:
     -
       value: Blog
@@ -36,22 +37,22 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Blog | Drupal GraphQL Demo'
+        content: 'Blog | Drush Site-Install'
     -
       tag: link
       attributes:
         rel: canonical
-        href: 'http://drupal-graphql-example.ddev.site/blog'
+        href: 'http://drupal-decoupled.ddev.site/blog'
     -
       tag: link
       attributes:
         rel: image_src
-        href: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-05/octahedroid-preview-blog.png'
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
     -
       tag: meta
       attributes:
         property: 'og:site_name'
-        content: 'Drupal GraphQL Demo'
+        content: 'Drush Site-Install'
     -
       tag: meta
       attributes:
@@ -61,22 +62,22 @@ default:
       tag: meta
       attributes:
         property: 'og:url'
-        content: 'http://drupal-graphql-example.ddev.site/blog'
+        content: 'http://drupal-decoupled.ddev.site/blog'
     -
       tag: meta
       attributes:
         property: 'og:title'
-        content: 'Blog | Drupal GraphQL Demo'
+        content: 'Blog | Drush Site-Install'
     -
       tag: meta
       attributes:
         property: 'og:image'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-05/octahedroid-preview-blog.png'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
     -
       tag: meta
       attributes:
         property: 'og:image:url'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-05/octahedroid-preview-blog.png'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
     -
       tag: meta
       attributes:
@@ -106,7 +107,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:image'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-05/octahedroid-preview-blog.png'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/drupal-decoupled_0.png'
   path:
     -
       alias: /blog
@@ -118,7 +119,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: d8d10314-1799-4e7d-9032-bf464f7e4631
+          uuid: 60ed7cca-5cd4-400c-8e8f-f2919e2b5aae
           bundle: view_reference
           default_langcode: en
         default:
@@ -127,22 +128,19 @@ default:
               value: true
           created:
             -
-              value: 1712334964
+              value: 1725216257
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           field_reference:
             -
               target_id: blog
-              display_id: blog_teaser
+              display_id: blog_featured
               arguments: ''
               items_to_display: ''
   field_image:
     -
-      entity: d40d2692-a1cf-462f-8840-eb39bc1fc509
+      entity: 678da590-ee20-45e2-859c-3ad8d6d0f633
   field_show_title:
     -
       value: true

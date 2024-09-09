@@ -1,0 +1,60 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_items
+    - paragraphs.paragraphs_type.faq
+    - paragraphs.paragraphs_type.question
+  module:
+    - entity_reference_revisions
+id: paragraph.faq.field_items
+field_name: field_items
+entity_type: paragraph
+bundle: faq
+label: Items
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      question: question
+    negate: 0
+    target_bundles_drag_drop:
+      card_group:
+        weight: 9
+        enabled: false
+      cta:
+        weight: 11
+        enabled: false
+      faq:
+        weight: 14
+        enabled: false
+      hero:
+        weight: 10
+        enabled: false
+      image:
+        weight: 11
+        enabled: false
+      logo:
+        weight: 12
+        enabled: false
+      logo_group:
+        weight: 13
+        enabled: false
+      question:
+        weight: 19
+        enabled: true
+      simple_card:
+        weight: 14
+        enabled: false
+      static_component:
+        weight: 15
+        enabled: false
+      view_reference:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_author
+    - paragraphs.paragraphs_type.author
+    - paragraphs.paragraphs_type.testimonial
+  module:
+    - entity_reference_revisions
+id: paragraph.testimonial.field_author
+field_name: field_author
+entity_type: paragraph
+bundle: testimonial
+label: Author
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      author: author
+    negate: 0
+    target_bundles_drag_drop:
+      author:
+        weight: 14
+        enabled: true
+      card_group:
+        weight: 14
+        enabled: false
+      cta:
+        weight: 15
+        enabled: false
+      faq:
+        weight: 16
+        enabled: false
+      hero:
+        weight: 17
+        enabled: false
+      logo:
+        weight: 19
+        enabled: false
+      logo_group:
+        weight: 20
+        enabled: false
+      people:
+        weight: 21
+        enabled: false
+      question:
+        weight: 22
+        enabled: false
+      simple_card:
+        weight: 23
+        enabled: false
+      static_component:
+        weight: 24
+        enabled: false
+      testimonial:
+        weight: 25
+        enabled: false
+      view_reference:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

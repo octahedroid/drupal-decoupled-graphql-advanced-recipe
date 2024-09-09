@@ -2,24 +2,91 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.view_reference.field_description
+    - field.field.paragraph.view_reference.field_heading
+    - field.field.paragraph.view_reference.field_link
     - field.field.paragraph.view_reference.field_reference
-    - field.field.paragraph.view_reference.field_text
-    - field.field.paragraph.view_reference.field_title
+    - field.field.paragraph.view_reference.field_subheading
     - paragraphs.paragraphs_type.view_reference
   module:
+    - field_group
+    - link
     - viewfield
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_basic
+        - group_view_reference
+        - group_actions
+      label: Tabs
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        direction: horizontal
+        width_breakpoint: 640
+    group_basic:
+      children:
+        - field_heading
+        - field_subheading
+        - field_description
+      label: Basic
+      region: content
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_view_reference:
+      children:
+        - field_reference
+      label: 'View Reference'
+      region: content
+      parent_name: group_tabs
+      weight: 21
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_actions:
+      children:
+        - field_link
+      label: Actions
+      region: content
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
 id: paragraph.view_reference.default
 targetEntityType: paragraph
 bundle: view_reference
 mode: default
 content:
-  field_reference:
-    type: viewfield_select
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_text:
+  field_description:
     type: string_textarea
     weight: 3
     region: content
@@ -27,9 +94,31 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_title:
+  field_heading:
     type: string_textfield
-    weight: 0
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_reference:
+    type: viewfield_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_subheading:
+    type: string_textfield
+    weight: 2
     region: content
     settings:
       size: 60

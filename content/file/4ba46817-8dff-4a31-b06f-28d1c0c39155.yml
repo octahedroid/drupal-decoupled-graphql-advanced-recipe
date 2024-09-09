@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4ba46817-8dff-4a31-b06f-28d1c0c39155
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 404-landscape-large.png
+  uri:
+    -
+      value: 'public://2024-09/404-landscape-large.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 65524
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725583949

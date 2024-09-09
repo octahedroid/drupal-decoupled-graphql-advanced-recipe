@@ -1,0 +1,146 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 051cc599-2b25-4ea0-b385-38566b41d765
+  bundle: article
+  default_langcode: en
+  depends:
+    56016070-f852-41b3-924b-0e57c7311355: user
+    5206febf-a64b-4066-85dd-0672a44a493f: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 56016070-f852-41b3-924b-0e57c7311355
+  title:
+    -
+      value: 'Building Drupal Decoupled with Trusted Tools'
+  created:
+    -
+      value: 1725675205
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Building Drupal Decoupled with Trusted Tools | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Drupal Decoupled is built using a combination of powerful, battle-tested technologies, each playing a crucial role:'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Drupal Decoupled is built using a combination of powerful, battle-tested technologies, each playing a crucial role:'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://drupal-decoupled.ddev.site/blog/building-drupal-decoupled-trusted-tools'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://drupal-decoupled.ddev.site/blog/building-drupal-decoupled-trusted-tools'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Building Drupal Decoupled with Trusted Tools | Drush Site-Install'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Drupal Decoupled is built using a combination of powerful, battle-tested technologies, each playing a crucial role:'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Drupal Decoupled is built using a combination of powerful, battle-tested technologies, each playing a crucial role:'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:site'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Building Drupal Decoupled with Trusted Tools'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:creator:id'
+        content: '@OctahedroidHQ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/landscape-large.png'
+  path:
+    -
+      alias: /blog/building-drupal-decoupled-trusted-tools
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Drupal Decoupled is built using a combination of powerful, battle-tested technologies, each playing a crucial role:</p><ul><li><strong>Drupal</strong>: As a robust headless CMS, Drupal handles back-end content management, seamlessly integrating with various front-end tools.</li><li><strong>React</strong>: A popular library for building dynamic, component-based user interfaces that interact with Drupal’s APIs.</li><li><strong>GraphQL</strong>: A query language that lets developers request only the specific data they need from an API. It operates as a server-side runtime, using a type system to execute precise queries against existing data.</li><li><strong>Remix</strong>: A full-stack framework focused on fast load times and smooth routing for high-performance web apps.</li><li><strong>Next.js</strong>: A React framework supporting server-side rendering and static generation for SEO-friendly sites.</li><li><strong>TailwindCSS</strong>: A utility-first CSS framework simplifying responsive, custom styling while keeping code clean.</li></ul><p>By leveraging these technologies, the platform provides a robust, scalable solution that allows developers to create modern, decoupled web applications while maintaining high performance and flexibility.</p><p>Learn more about decoupled architectures in our article <a href="https://octahedroid.com/blog/decouple-or-not-decouple-scoop-decoupled-cms">here</a>.&nbsp;<br>&nbsp;</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: 5206febf-a64b-4066-85dd-0672a44a493f
+  field_summary:
+    -
+      value: 'Drupal Decoupled is built using a combination of powerful, battle-tested technologies, each playing a crucial role.'

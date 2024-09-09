@@ -5,17 +5,18 @@ _meta:
   bundle: page
   default_langcode: en
   depends:
-    26b2e972-0404-42fb-8b1a-9c4adf03f3ae: media
+    56016070-f852-41b3-924b-0e57c7311355: user
+    dbe427b7-1553-4d94-9ad5-63d855dc3bdc: media
 default:
   revision_uid:
     -
       target_id: 1
   status:
     -
-      value: false
+      value: true
   uid:
     -
-      target_id: 0
+      entity: 56016070-f852-41b3-924b-0e57c7311355
   title:
     -
       value: 'Page not found'
@@ -36,22 +37,22 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Page not found | Drupal GraphQL Demo'
+        content: 'Page not found | Drush Site-Install'
     -
       tag: link
       attributes:
         rel: canonical
-        href: 'http://drupal-graphql-example.ddev.site/404'
+        href: 'http://drupal-decoupled.ddev.site/404'
     -
       tag: link
       attributes:
         rel: image_src
-        href: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
+        href: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/404-landscape-large.png'
     -
       tag: meta
       attributes:
         property: 'og:site_name'
-        content: 'Drupal GraphQL Demo'
+        content: 'Drush Site-Install'
     -
       tag: meta
       attributes:
@@ -61,22 +62,22 @@ default:
       tag: meta
       attributes:
         property: 'og:url'
-        content: 'http://drupal-graphql-example.ddev.site/404'
+        content: 'http://drupal-decoupled.ddev.site/404'
     -
       tag: meta
       attributes:
         property: 'og:title'
-        content: 'Page not found | Drupal GraphQL Demo'
+        content: 'Page not found | Drush Site-Install'
     -
       tag: meta
       attributes:
         property: 'og:image'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/404-landscape-large.png'
     -
       tag: meta
       attributes:
         property: 'og:image:url'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/404-landscape-large.png'
     -
       tag: meta
       attributes:
@@ -106,7 +107,7 @@ default:
       tag: meta
       attributes:
         name: 'twitter:image'
-        content: 'http://drupal-graphql-example.ddev.site/sites/default/files/2024-07/404.png'
+        content: 'http://drupal-decoupled.ddev.site/sites/default/files/2024-09/404-landscape-large.png'
   path:
     -
       alias: /404
@@ -118,8 +119,8 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 80cc3e13-8948-4b8d-ac66-976c574d6de3
-          bundle: image
+          uuid: c2077b00-6b25-4a36-91f6-f19087b7ed0a
+          bundle: hero
           default_langcode: en
         default:
           status:
@@ -127,19 +128,27 @@ default:
               value: true
           created:
             -
-              value: 1712346693
+              value: 1725478590
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
+          field_actions:
             -
-              value: true
+              uri: 'internal:/'
+              title: 'Go back to home'
+              options: {  }
+          field_description:
+            -
+              value: "Curiosity killed the cat...\r\nBut your curiosity has left our expert headless! Let’s get you back home while we sort this out."
+          field_heading:
+            -
+              value: 'Page not found'
           field_image:
             -
-              entity: 26b2e972-0404-42fb-8b1a-9c4adf03f3ae
+              entity: dbe427b7-1553-4d94-9ad5-63d855dc3bdc
   field_image:
     -
-      entity: 26b2e972-0404-42fb-8b1a-9c4adf03f3ae
+      entity: dbe427b7-1553-4d94-9ad5-63d855dc3bdc
   field_show_title:
     -
       value: true

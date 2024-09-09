@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e2f2924d-1ab9-4962-8660-203d7495f3ed
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drupal-decoupled.png
+  uri:
+    -
+      value: 'public://2024-09/drupal-decoupled_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 22285
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725674444

@@ -3,8 +3,8 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_items
-    - paragraphs.paragraphs_type.card
     - paragraphs.paragraphs_type.card_group
+    - paragraphs.paragraphs_type.simple_card
   module:
     - entity_reference_revisions
 id: paragraph.card_group.field_items
@@ -21,28 +21,31 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      card: card
+      simple_card: simple_card
     negate: 0
     target_bundles_drag_drop:
-      card:
-        weight: 9
-        enabled: true
       card_group:
-        weight: 10
+        weight: 9
         enabled: false
-      code_block:
+      cta:
         weight: 11
         enabled: false
       hero:
-        weight: 12
+        weight: 10
         enabled: false
       image:
+        weight: 11
+        enabled: false
+      logo:
+        weight: 12
+        enabled: false
+      logo_group:
         weight: 13
         enabled: false
-      static_component:
+      simple_card:
         weight: 14
-        enabled: false
-      text:
+        enabled: true
+      static_component:
         weight: 15
         enabled: false
       view_reference:

@@ -50,15 +50,12 @@ install:
   - gin
   - gin_login
   - gin_toolbar
-  - coffee
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
-  - override_node_options
   - pathauto
   - paragraphs
   - redirect
-  - subpathauto
   - view_unpublished
   - viewfield
   - simple_oauth
@@ -111,13 +108,10 @@ config:
       - block.block.gin_primary_local_tasks
     gin_toolbar: '*'
     gin_login: '*'
-    coffee: '*'
     metatag: '*'
-    override_node_options: '*'
     pathauto: '*'
     paragraphs: '*'
     redirect: '*'
-    subpathauto: '*'
     viewfield: '*'
     simple_oauth: '*'
     # Decoupled contrib

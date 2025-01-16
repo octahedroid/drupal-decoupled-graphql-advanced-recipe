@@ -215,6 +215,10 @@ field_config:
     user:
       field_picture:
         enabled: true
+  webform:
+    contact_form:
+      enabled: true
+      routes_enabled: true
 settings:
   expose_entity_ids: false
   schema_description: Decoupled

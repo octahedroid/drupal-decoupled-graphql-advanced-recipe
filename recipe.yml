@@ -143,45 +143,45 @@ config:
   actions:
     # Set home page
     system.site:
-      simple_config_update:
+      simpleConfigUpdate:
         page.front: /home
     # Set and unset Gin blocks.
     block.block.gin_admin:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     block.block.gin_branding:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     block.block.gin_local_actions:
-      simple_config_update:
+      simpleConfigUpdate:
         region: content
         weight: -10
     block.block.gin_local_tasks:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     block.block.gin_page_title:
-      simple_config_update:
+      simpleConfigUpdate:
         region: header
         weight: -10
     block.block.gin_primary_local_tasks:
-      simple_config_update:
+      simpleConfigUpdate:
         region: header
         weight: -5
         settings.secondary: true
     block.block.gin_tools:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     # Update the admin theme to Gin in Theme settings.
     node.settings:
-      simple_config_update:
+      simpleConfigUpdate:
         use_admin_theme: true  
     system.theme:
-      simple_config_update:
+      simpleConfigUpdate:
         admin: 'gin'
         default: 'gin'
     # Set metatag defaults.
     metatag.metatag_defaults.global:
-      simple_config_update:
+      simpleConfigUpdate:
         tags.canonical_url: '[current-page:url]'
         tags.title: '[current-page:title] | [site:name]'
         tags.twitter_cards_creator_id: '@OctahedroidHQ'
@@ -189,7 +189,7 @@ config:
         tags.twitter_cards_title: '[current-page:title] | [site:name]'
         tags.twitter_cards_type: summary
     metatag.metatag_defaults.node:
-      simple_config_update:
+      simpleConfigUpdate:
         tags.abstract: '[node:summary]'
         tags.canonical_url: '[node:url]'
         tags.description: '[node:summary]'
@@ -210,13 +210,13 @@ config:
         tags.twitter_cards_type: summary_large_image
      # Set permissions for content editor role.
     user.role.content_editor:
-      ensure_exists:
+      createIfNotExists:
         id: content_editor
       grantPermissions:
         - 'use text format basic_html'
         - 'use text format full_html'
     simple_oauth.settings:
-      simple_config_update:
+      simpleConfigUpdate:
         access_token_expiration: 2592000
         authorization_code_expiration: 2592000
         refresh_token_expiration: 2592000
@@ -227,6 +227,6 @@ config:
         use_implicit: false
         disable_openid_connect: false
     webform.settings:
-      simple_config_update:
+      simpleConfigUpdate:
         ui.promotions_disabled: true
 

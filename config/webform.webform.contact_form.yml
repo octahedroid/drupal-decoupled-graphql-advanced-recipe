@@ -1,5 +1,6 @@
 langcode: en
 status: open
+dependencies: {  }
 weight: 0
 open: null
 close: null
@@ -203,7 +204,9 @@ access:
     users: {  }
     permissions: {  }
   configuration:
-    roles: {  }
+    roles:
+      - viewer
+      - previewer
     users: {  }
     permissions: {  }
 handlers:

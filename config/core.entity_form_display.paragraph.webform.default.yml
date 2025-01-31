@@ -7,6 +7,8 @@ dependencies:
     - field.field.paragraph.webform.field_heading
     - field.field.paragraph.webform.field_subheading
     - paragraphs.paragraphs_type.webform
+  module:
+    - webform
 id: paragraph.webform.default
 targetEntityType: paragraph
 bundle: webform
@@ -21,10 +23,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_form:
-    type: options_select
+    type: webform_entity_reference_select
     weight: 5
     region: content
-    settings: {  }
+    settings:
+      default_data: true
+      webforms: {  }
     third_party_settings: {  }
   field_heading:
     type: string_textfield

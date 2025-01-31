@@ -1,14 +1,5 @@
 langcode: en
 status: open
-dependencies:
-  module:
-    - antibot
-    - honeypot
-third_party_settings:
-  antibot:
-    antibot: true
-  honeypot:
-    honeypot: true
 weight: 0
 open: null
 close: null
@@ -40,8 +31,8 @@ settings:
   ajax_progress_type: ''
   ajax_effect: ''
   ajax_speed: null
-  page: true
-  page_submit_path: /form/contact
+  page: false
+  page_submit_path: ''
   page_confirm_path: ''
   page_theme_name: ''
   form_title: both

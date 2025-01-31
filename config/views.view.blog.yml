@@ -174,8 +174,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  blog_featured:
-    id: blog_featured
+  teaser_featured:
+    id: teaser_featured
     display_title: 'Blog Teaser Featured'
     display_plugin: graphql
     position: 2
@@ -192,8 +192,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  blog_teaser:
-    id: blog_teaser
+  teaser:
+    id: teaser
     display_title: 'Blog Teaser'
     display_plugin: graphql
     position: 1

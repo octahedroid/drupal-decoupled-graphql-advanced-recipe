@@ -622,7 +622,7 @@ default:
           field_reference:
             -
               target_id: blog
-              display_id: blog_teaser
+              display_id: teaser
               arguments: ''
               items_to_display: ''
   field_image:

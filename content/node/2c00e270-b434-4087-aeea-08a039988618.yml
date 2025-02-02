@@ -593,38 +593,6 @@ default:
                   field_question:
                     -
                       value: 'How to integrate Meta-tags ?'
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: 826cdd99-fecc-46a2-9939-833b1ac15255
-          bundle: view_reference
-          default_langcode: en
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1725221670
-          behavior_settings:
-            -
-              value: {  }
-          field_heading:
-            -
-              value: 'Discover our content hub, a diverse collection of valuable resources designed to inspire, educate, and empower.'
-          field_link:
-            -
-              target_uuid: 91e36ae5-c844-474a-83fc-56308a080b83
-              title: 'View all'
-              options: {  }
-          field_reference:
-            -
-              target_id: blog
-              display_id: teaser
-              arguments: ''
-              items_to_display: ''
   field_image:
     -
       entity: 678da590-ee20-45e2-859c-3ad8d6d0f633

@@ -18,7 +18,7 @@
     ],
     "require": {
         "drupal/admin_toolbar": "^3.4",
-        "drupal/coffee": "^1.4",
+        "drupal/coffee": "^1.4 || ^2.0",
         "drupal/decoupled_preview_iframe": "^1.0",
         "drupal/dynamic_entity_reference": "^3.2",
         "drupal/field_group": "^3.4",

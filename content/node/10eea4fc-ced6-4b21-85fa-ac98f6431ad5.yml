@@ -134,7 +134,11 @@ default:
               value: {  }
           field_form:
             -
-              value: contact
+              target_id: contact_form
+              default_data: ''
+              status: open
+              open: ''
+              close: ''
           field_heading:
             -
               value: 'How can we help you?'

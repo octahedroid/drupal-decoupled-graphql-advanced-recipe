@@ -2,19 +2,15 @@ langcode: en
 status: true
 dependencies:
   module:
-    - options
     - paragraphs
+    - webform
 id: paragraph.field_form
 field_name: field_form
 entity_type: paragraph
-type: list_string
+type: webform
 settings:
-  allowed_values:
-    -
-      value: contact
-      label: Contact
-  allowed_values_function: ''
-module: options
+  target_type: webform
+module: webform
 locked: false
 cardinality: 1
 translatable: true

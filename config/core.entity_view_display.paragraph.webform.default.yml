@@ -8,7 +8,7 @@ dependencies:
     - field.field.paragraph.webform.field_subheading
     - paragraphs.paragraphs_type.webform
   module:
-    - options
+    - webform
 id: paragraph.webform.default
 targetEntityType: paragraph
 bundle: webform
@@ -22,9 +22,11 @@ content:
     weight: 4
     region: content
   field_form:
-    type: list_default
+    type: webform_entity_reference_entity_view
     label: above
-    settings: {  }
+    settings:
+      source_entity: true
+      lazy: false
     third_party_settings: {  }
     weight: 6
     region: content

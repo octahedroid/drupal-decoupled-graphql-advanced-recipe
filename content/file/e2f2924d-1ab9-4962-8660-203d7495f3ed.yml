@@ -12,7 +12,7 @@ default:
       value: drupal-decoupled.png
   uri:
     -
-      value: 'public://2024-09/drupal-decoupled_0.png'
+      value: 'public://2024-09/drupal-decoupled.png'
   filemime:
     -
       value: image/png

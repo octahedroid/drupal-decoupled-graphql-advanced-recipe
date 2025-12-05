@@ -98,18 +98,8 @@ config:
       - views.view.user_admin_people
     #contrib
     field_group: '*'
-    gin: 
-      - gin.settings
-      - block.block.gin_breadcrumbs
-      - block.block.gin_content
-      - block.block.gin_help
-      - block.block.gin_local_actions
-      - block.block.gin_messages
-      - block.block.gin_page_title
-      - block.block.gin_primary_local_tasks
-    navigation:
-      - system.menu.content
-
+    gin: '*' 
+    navigation: '*'
     gin_toolbar: '*'
     gin_login: '*'
     coffee: '*'
@@ -144,32 +134,6 @@ config:
     system.site:
       simpleConfigUpdate:
         page.front: /home
-    # Set and unset Gin blocks.
-    block.block.gin_admin:
-      simpleConfigUpdate:
-        status: false
-    block.block.gin_branding:
-      simpleConfigUpdate:
-        status: false
-    block.block.gin_local_actions:
-      simpleConfigUpdate:
-        region: content
-        weight: -10
-    block.block.gin_local_tasks:
-      simpleConfigUpdate:
-        status: false
-    block.block.gin_page_title:
-      simpleConfigUpdate:
-        region: header
-        weight: -10
-    block.block.gin_primary_local_tasks:
-      simpleConfigUpdate:
-        region: header
-        weight: -5
-        settings.secondary: true
-    block.block.gin_tools:
-      simpleConfigUpdate:
-        status: false
     # Update the admin theme to Gin in Theme settings.
     node.settings:
       simpleConfigUpdate:

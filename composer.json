@@ -1,14 +1,14 @@
 {
     "name": "octahedroid/drupal-decoupled-graphql-advanced-recipe",
     "description": "A Drupal site as a turnkey solution for a headless CMS, using a GraphQL endpoint to create a decoupled site.",
+    "license": "GPL-2.0-or-later",
+    "type": "drupal-recipe",
     "keywords": [
         "recipe",
         "drupal recipe",
         "drupal decoupled",
         "drupal decopled recipe"
     ],
-    "type": "drupal-recipe",
-    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Omar Aguirre",
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "drupal/coffee": "^1.4",
+        "drupal/coffee": "^2.0",
         "drupal/decoupled_preview_iframe": "^1.0",
         "drupal/dynamic_entity_reference": "^3.2",
         "drupal/field_group": "^3.4",
@@ -29,7 +29,7 @@
         "drupal/graphql_compose_preview": "^1.0",
         "drupal/graphql_compose_webform": "^1.2@dev",
         "drupal/metatag": "^2.0",
-        "drupal/navigation_extra_tools":"^1.0",
+        "drupal/navigation_extra_tools": "^1.0",
         "drupal/override_node_options": "^2.8",
         "drupal/paragraphs": "^1.17",
         "drupal/password_policy": "^4.0",

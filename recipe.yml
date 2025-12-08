@@ -65,7 +65,6 @@ install:
   # Decoupled contrib
   - decoupled_preview_iframe
   - visual_editor
-  - visual_editor_paragraphs
   - graphql_compose
   - graphql_compose_edges
   - graphql_compose_image_style

@@ -64,7 +64,6 @@ install:
   - webform_ui
   # Decoupled contrib
   - decoupled_preview_iframe
-  - visual_editor
   - graphql_compose
   - graphql_compose_edges
   - graphql_compose_image_style

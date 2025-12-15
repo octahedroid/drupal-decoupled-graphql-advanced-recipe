@@ -6,11 +6,13 @@ dependencies:
     - graphql_compose_preview
     - node
     - view_unpublished
+    - webform
 id: previewer
 label: Previewer
 weight: -6
 is_admin: false
 permissions:
+  - 'access any webform configuration'
   - 'execute graphql_compose_server arbitrary graphql requests'
   - 'view all revisions'
   - 'view any unpublished content'
